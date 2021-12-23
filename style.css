@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: white;
+  background: black;
+  overflow: hidden;
+}
+
+.item-1, 
+.item-2, 
+.item-3,
+.item-4, 
+.item-5, 
+.item-6,
+.item-7, 
+.item-8, 
+.item-9,
+.item-10 {
+	position: absolute;
+  display: block;
+	top: 2em;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 100s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+.item-4{
+	animation-name: anim-4;
+}
+
+.item-5{
+	animation-name: anim-5;
+}
+
+.item-6{
+	animation-name: anim-6;
+}
+
+.item-7{
+	animation-name: anim-7;
+}
+
+.item-8{
+	animation-name: anim-8;
+}
+
+.item-9{
+	animation-name: anim-9;
+}
+
+.item-10{
+	animation-name: anim-10;
+}
+
+@keyframes anim-1 {
+	0%, 2.5% { left: -100%; opacity: 0; }
+  5%, 7.5% { left: 25%; opacity: 1; }
+  10%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 10% { left: -100%; opacity: 0; }
+  12.5%, 17.5% { left: 25%; opacity: 1; }
+  20%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 20% { left: -100%; opacity: 0; }
+  22.5%, 27.5% { left: 25%; opacity: 1; }
+  30%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 30% { left: -100%; opacity: 0; }
+ 32.5%, 37.5% { left: 25%; opacity: 1; }
+  40%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-5 {
+	0%, 40% { left: -100%; opacity: 0; }
+ 42.5%, 47.5% { left: 25%; opacity: 1; }
+  50%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-6 {
+	0%, 50% { left: -100%; opacity: 0; }
+  52.5%, 57.5% { left: 25%; opacity: 1; }
+  60%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-7 {
+	0%, 60% { left: -100%; opacity: 0; }
+  62.5%, 67.5% { left: 25%; opacity: 1; }
+  70%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-8 {
+	0%, 70% { left: -100%; opacity: 0; }
+  72.5%, 77.5% { left: 25%; opacity: 1; }
+  80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-9 {
+	0%, 80% { left: -100%; opacity: 0; }
+  82.5%, 87.5% { left: 25%; opacity: 1; }
+  90%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-10 {
+	0%, 90% { left: -100%; opacity: 0; }
+  92.5%, 97.5% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
