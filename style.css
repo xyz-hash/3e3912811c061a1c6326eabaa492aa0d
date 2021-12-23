@@ -71,14 +71,6 @@ html {
 .item-8, 
 .item-9,
 .item-10 {
-	position: absolute;
-  display: block;
-	top: 2em;
-  
-  width: 60%;
-  
-  font-size: 2em;
-
 	animation-duration: 100s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
