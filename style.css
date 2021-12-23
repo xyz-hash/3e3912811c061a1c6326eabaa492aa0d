@@ -5,6 +5,7 @@ body {
   color: white;
   background: black;
   overflow: hidden;
+	text-align: center;
 }
 
 .item-1, 
