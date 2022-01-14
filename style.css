@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
-body { 
+/* body { 
   font-family: 'Open Sans', 'sans-serif';
   color: white;
   background: black;
   overflow: hidden;
-}
+}*/
 
 html { 
   background: url(https://www.w3schools.com/images/w3lynx_200.png) no-repeat center center fixed; 
